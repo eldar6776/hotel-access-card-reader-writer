@@ -1,0 +1,17 @@
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\ResolveAssemblyReference.cache
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID_PnP_Demo.Form1.resources
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID_PnP_Demo.Resources.resources
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.vbproj.GenerateResource.Cache
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\bin\x86\Release\HID PnP Demo.exe.manifest
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\bin\x86\Release\HID PnP Demo.application
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\bin\x86\Release\HID PnP Demo.exe
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\bin\x86\Release\HID PnP Demo.pdb
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\bin\x86\Release\HID PnP Demo.xml
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.exe.manifest
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.application
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.exe
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.xml
+D:\source\PnP - Windows Software\Microsoft Visual Basic 2008 Express\obj\x86\Release\HID PnP Demo.pdb
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.exe
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.xml
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.pdb

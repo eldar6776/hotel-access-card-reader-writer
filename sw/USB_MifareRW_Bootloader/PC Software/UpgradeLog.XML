@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HIDBootLoader">
+</Property><Property Name="Solution File" Value="C:\Users\Eldar\Desktop\RC522 USB Card Reader Writer\tools\Bootloaders\HID\PC Software\HIDBootLoader.sln">
+</Property><Property Name="Date" Value="ponedjeljak, 06. juni 2016.">
+</Property><Property Name="Time" Value="01:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HIDBootLoader.sln" Description="File successfully backed up as C:\Users\Eldar\Desktop\RC522 USB Card Reader Writer\tools\Bootloaders\HID\PC Software\HIDBootLoader.sln.old">
+</Event><Event ErrorLevel="0" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Converting project file 'C:\Users\Eldar\Desktop\RC522 USB Card Reader Writer\tools\Bootloaders\HID\PC Software\HIDBootLoader.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Done converting to new project file 'C:\Users\Eldar\Desktop\RC522 USB Card Reader Writer\tools\Bootloaders\HID\PC Software\HIDBootLoader.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HIDBootLoader" Source="HIDBootLoader.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HIDBootLoader.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HIDBootLoader.sln" Description="Converted">
+</Event></UpgradeLog>

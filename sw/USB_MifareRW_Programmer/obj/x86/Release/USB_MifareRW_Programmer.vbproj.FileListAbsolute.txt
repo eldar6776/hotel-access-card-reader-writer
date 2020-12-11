@@ -1,0 +1,14 @@
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\bin\x86\Release\HID PnP Demo.exe.manifest
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\bin\x86\Release\HID PnP Demo.application
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\bin\x86\Release\HID PnP Demo.exe
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\bin\x86\Release\HID PnP Demo.pdb
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\bin\x86\Release\HID PnP Demo.xml
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\USB_MifareRW_Programmer.vbprojResolveAssemblyReference.cache
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID_PnP_Demo.Form1.resources
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID_PnP_Demo.Resources.resources
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\USB_MifareRW_Programmer.vbproj.GenerateResource.Cache
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.exe.manifest
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.application
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.exe
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.xml
+C:\Users\Eldar\Desktop\USB_MifareReaderWriter\sw\USB_MifareRW_Programmer\obj\x86\Release\HID PnP Demo.pdb

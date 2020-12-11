@@ -1,0 +1,28 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~USB_RC522_CARD_RW.PrjPcb|ReportField=ProjectFullPath~C:\Users\Eldar\Desktop\USB_MifareReaderWriter\hw\DE-180716\USB_RC522_CARD_RW.PrjPcb|ReportField=Title~Bill of Materials For Project [USB_RC522_CARD_RW.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~65|ReportField=ReportTime~22:17:38|ReportField=ReportDate~19.6.2017|ReportField=ReportDateTime~19.6.2017 22:17:38|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~Osman Topal Paše 18|ReportField=Address2~71000 Sarajevo|ReportField=Address3~Federacija BiH|ReportField=Address4~Bosna i Hercegovina|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~eldar6776@hotmail.com|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=ConfigurationParameters~|ReportField=ConfiguratorName~|ReportField=CurrentDate~19.6.2017|ReportField=CurrentTime~22:16:41|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\Eldar\Desktop\USB_MifareReaderWriter\hw\DE-180716\USB_RC522_CARD_RW.SchDoc|ReportField=DocumentName~USB_RC522_CARD_RW.SchDoc|ReportField=DocumentNumber~DE-180716|ReportField=DrawnBy~Eldar Dedic|ReportField=Engineer~|ReportField=ImagePath~|ReportField=IsUserConfigurable~|ReportField=ModifiedDate~21.7.2016|ReportField=Organization~I-MEDIA GROUP d.o.o.|ReportField=ProjectName~USB_RC522_CARD_RW.PrjPcb|ReportField=Revision~001|ReportField=Rule~|ReportField=SheetNumber~1|ReportField=SheetTotal~1|ReportField=Time~|ReportField=Title~USB RC522 Card Reader Writer|ReportField=VersionControl_RevNumber~|ReportField=DataSourceFileName~USB_RC522_CARD_RW.PrjPcb|ReportField=DataSourceFullPath~C:\Users\Eldar\Desktop\USB_MifareReaderWriter\hw\DE-180716\USB_RC522_CARD_RW.PrjPcb
+1|100nF|Ceramic Chip Capacitor - Standard|C1, C6, C8, C10, C12, C15, C16, C17, C18|0603|C0603|9
+2|10uF|Ceramic Chip Capacitor - Standard|C2, C5, C7, C9, C13, C14|0805|C0805|6
+3|10nF|Ceramic Chip Capacitor - Standard|C3, C4|0603|C0603|2
+4|470nF|Ceramic Chip Capacitor - Standard|C11|0805|C0805|1
+5|LED_WHITE|High Performance Chip LED, Red|D1, D2, D3|1.6X0.8X0.8|HSMZ-C190|3
+6|1N4148|Schottky Barrier Diode|D4|SOD323|1PS76SB10|1
+7|LED_GREEN|High Performance Chip LED, Red|D5|1.6X0.8X0.8|HSMZ-C190|1
+8|LED_RED|High Performance Chip LED, Red|D6|1.6X0.8X0.8|HSMZ-C190|1
+9|NF|SMD-Multilayer Inductor WE-MI, L = 8.20 µH|L1, L2|SMD-0805|744790282|2
+10|Buzzer 5Vdc|5Vdc PCB buzzer|LS1|BUZZER|BUZZER|1
+11|CAPACITIVE SENSORS|Header, 5-Pin|P1|HDR1X5|Header 5|1
+12|USB B MINI|Header, 4-Pin|P2|HDR1X4|Header 4|1
+13|2x16 CHAR LCD|Header, 16-Pin|P3|HDR1X16|Header 16|1
+14|HW_RESET|Header, 2-Pin|P4|HDR1X2|Header 2|1
+15|RC522 CARD RW|Header, 8-Pin|P5|HDR1X8|Header 8|1
+16|PICKIT3_ICSP|Header, 5-Pin|P6|HDR1X5|Header 5|1
+17|SI2377EDS|P-channel Enhancement Mode MOSFET|Q1|SOT23_N|BSH203|1
+18|MMBT2222|NPN General-purpose Transistor|Q2, Q3|SOT23_N|BC817|2
+19|BSS123|N-channel Enhancement Mode Vertical D-MOSFET|Q4|SOT23_N|BSS123|1
+20|330R|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R1, R2, R3, R7, R8|ERA-0603|ERAV|5
+21|1K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R4, R13, R14, R15, R16, R17, R18, R19|ERA-0603|ERAV|8
+22|10K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R5, R9, R10, R11, R25, R26|ERA-0603|ERAV|6
+23|100R|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R6, R24|ERA-0603|ERAV|2
+24|10R|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R12|ERA-0603|ERAV|1
+25|2K2|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R20, R21, R22, R23|ERA-0603|ERAV|4
+26|PIC18F25K50-I/SO|Low-Power, High-Performance Microcontroller with XLP Technology, 48 MHz, 24 I/O, -40 to 85 degC, 28-pin SOIC (SO28), Tube|U1|MCHP-SOIC-SO28_N|PIC18F25K50-I/SO|1
+27|REG1117-3.3|800mA and 1A Low Dropout Positive Regulator 2.85V, 3.3V, 5V, and Adjustable|U2|ZZ311|REG1117-3.3|1

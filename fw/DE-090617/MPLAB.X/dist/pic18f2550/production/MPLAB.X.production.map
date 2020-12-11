@@ -1,0 +1,1687 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Thu Jun 07 18:37:57 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+               _entry_scn       code   0x000000    program   0x000006
+           .code___init.o       code   0x000006    program   0x000002
+    HIGH_INTERRUPT_VECTOR       code   0x000008    program   0x000006
+     LOW_INTERRUPT_VECTOR       code   0x000018    program   0x000006
+                   .cinit    romdata   0x00001e    program   0x00001a
+       .code_usb_device.o       code   0x000038    program   0x000cd8
+ .code_usb_function_hid.o       code   0x000d10    program   0x0000c8
+               _cinit_scn       code   0x000dd8    program   0x00009e
+.romdata_usb_descriptors.o    romdata   0x000e76    program   0x00008d
+        .idata___init.o_i    romdata   0x000f03    program   0x000000
+      .romdata_spi_writ.o    romdata   0x000f03    program   0x000000
+      .idata_spi_writ.o_i    romdata   0x000f03    program   0x000000
+      .romdata_spi_read.o    romdata   0x000f03    program   0x000000
+      .idata_spi_read.o_i    romdata   0x000f03    program   0x000000
+      .romdata_spi_open.o    romdata   0x000f03    program   0x000000
+      .idata_spi_open.o_i    romdata   0x000f03    program   0x000000
+.idata_usb_descriptors.o_i    romdata   0x000f03    program   0x000000
+         .romdata_rc522.o    romdata   0x000f03    program   0x000000
+        .romdata___init.o    romdata   0x000f03    program   0x000000
+         .idata_c018i.o_i    romdata   0x000f03    program   0x000000
+         .romdata_c018i.o    romdata   0x000f03    program   0x000000
+    .idata_usb_device.o_i    romdata   0x000f03    program   0x000000
+    .romdata_usb_device.o    romdata   0x000f03    program   0x000000
+.idata_usb_function_hid.o_i    romdata   0x000f03    program   0x000000
+.romdata_usb_function_hid.o    romdata   0x000f03    program   0x000000
+          .romdata_main.o    romdata   0x000f03    program   0x000000
+            .code_c018i.o       code   0x000f04    program   0x000000
+         .code_spi_open.o       code   0x000f04    program   0x000064
+  .code_usb_descriptors.o       code   0x000f04    program   0x000000
+         .code_spi_writ.o       code   0x000f68    program   0x00003c
+                   STRING       code   0x000fa4    program   0x000034
+              D1KTCYXCODE       code   0x000fd8    program   0x000020
+    REMAPPED_RESET_VECTOR       code   0x001000    program   0x000006
+      AppSignatureSection    romdata   0x001006    program   0x000002
+REMAPPED_HIGH_INTERRUPT_VECTOR       code   0x001008    program   0x000006
+AppVersionAndSignatureSection    romdata   0x001016    program   0x000002
+REMAPPED_LOW_INTERRUPT_VECTOR       code   0x001018    program   0x000006
+             .code_main.o       code   0x00101e    program   0x001732
+            .code_rc522.o       code   0x002750    program   0x000a84
+             D10KTCYXCODE       code   0x0031d4    program   0x00002e
+         .code_spi_read.o       code   0x003202    program   0x00002e
+                    .code       code   0x003230    program   0x000020
+             _startup_scn       code   0x003250    program   0x00001c
+              D10TCYXCODE       code   0x00326c    program   0x000016
+         .idata_rc522.o_i    romdata   0x003282    program   0x00001b
+          .idata_main.o_i    romdata   0x00329d    program   0x000018
+    .config_300000_main.o    romdata   0x300000    program   0x000001
+    .config_300001_main.o    romdata   0x300001    program   0x000001
+    .config_300002_main.o    romdata   0x300002    program   0x000001
+    .config_300003_main.o    romdata   0x300003    program   0x000001
+    .config_300005_main.o    romdata   0x300005    program   0x000001
+    .config_300006_main.o    romdata   0x300006    program   0x000001
+    .config_300008_main.o    romdata   0x300008    program   0x000001
+    .config_300009_main.o    romdata   0x300009    program   0x000001
+    .config_30000a_main.o    romdata   0x30000a    program   0x000001
+    .config_30000b_main.o    romdata   0x30000b    program   0x000001
+    .config_30000c_main.o    romdata   0x30000c    program   0x000001
+    .config_30000d_main.o    romdata   0x30000d    program   0x000001
+                 .tmpdata      udata   0x000000       data   0x00001b
+                MATH_DATA      udata   0x00001b       data   0x00000b
+                DELAYDAT2      udata   0x000026       data   0x000001
+                DELAYDAT1      udata   0x000027       data   0x000001
+           .udata_rc522.o      udata   0x000060       data   0x00009d
+            .udata_main.o      udata   0x0000fd       data   0x000003
+                   .stack      udata   0x000300       data   0x000100
+                  USB_BDT      udata   0x000400       data   0x000036
+            USB_VARIABLES      udata   0x000500       data   0x000080
+      .udata_usb_device.o      udata   0x000580       data   0x00002e
+           .idata_rc522.o      idata   0x0005ae       data   0x00001b
+            .idata_main.o      idata   0x0005c9       data   0x000018
+           .udata_c018i.o      udata   0x0005e1       data   0x00000a
+.udata_usb_function_hid.o      udata   0x0005eb       data   0x000002
+      .idata_usb_device.o      idata   0x0005ed       data   0x000000
+ .udata_usb_descriptors.o      udata   0x0005ed       data   0x000000
+ .idata_usb_descriptors.o      idata   0x0005ed       data   0x000000
+.idata_usb_function_hid.o      idata   0x0005ed       data   0x000000
+           .idata_c018i.o      idata   0x0005ed       data   0x000000
+        .udata_spi_open.o      udata   0x0005ed       data   0x000000
+        .idata_spi_open.o      idata   0x0005ed       data   0x000000
+        .udata_spi_read.o      udata   0x0005ed       data   0x000000
+        .idata_spi_read.o      idata   0x0005ed       data   0x000000
+        .udata_spi_writ.o      udata   0x0005ed       data   0x000000
+        .idata_spi_writ.o      idata   0x0005ed       data   0x000000
+          .udata___init.o      udata   0x0005ed       data   0x000000
+          .idata___init.o      idata   0x0005ed       data   0x000000
+            SFR_UNBANKED0      udata   0x000f66       data   0x00009a
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00000d      
+                            0x000018    0x000f02      
+                            0x000f04    0x000ff7      
+                            0x001000    0x00100d      
+                            0x001016    0x0032b4      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            12966 out of 33048 program addresses used, program memory utilization is 39%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               AppVersion   0x001016    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+           BlinkUSBStatus   0x002172    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             CardDataFail   0x0022e4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+          CardDataSucceed   0x00238a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             CopyCardData   0x0025ee    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   D10K_1   0x0031e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0031ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0031de    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10_1   0x00327c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x003274    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D1K_1   0x000fe4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x000fe2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+             Delay10KTCYx   0x0031d4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+              Delay10TCYx   0x00326c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+              Delay1KTCYx   0x000fd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                 High_ISR   0x000008    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         InitializeSystem   0x0010e4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  Low_ISR   0x000018    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  OpenSPI   0x000f04    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_open.c
+                ProcessIO   0x001124    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         RC522_AntennaOff   0x002898    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_AntennaOn   0x00287a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           RC522_Anticoll   0x002ada    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Auth   0x002c70    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_CalculateCRC   0x002b5a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Check   0x0027b8    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_ClearBitMask   0x002862    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_ClearData   0x002eb6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Compare   0x0027e6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Halt   0x002e12    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Init   0x002750    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Read   0x002cf6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           RC522_ReadCard   0x002e52    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_ReadRegister   0x002838    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Request   0x0028e0    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Reset   0x0028a2    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_SelectTag   0x002bd4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Service   0x00277e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         RC522_SetBitMask   0x002850    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             RC522_ToCard   0x002930    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Write   0x002d74    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_WriteCard   0x002e82    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+      RC522_WriteRegister   0x00281e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            ReadHotelCard   0x0023b4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  ReadSPI   0x003202    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_read.c
+        Remapped_High_ISR   0x001008    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         Remapped_Low_ISR   0x001018    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  Restart   0x0026d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+     SignaturePlaceholder   0x001006    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       USBCBCheckOtherReq   0x0021d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+        USBCBErrorHandler   0x0021d4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              USBCBInitEP   0x0021dc    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+          USBCBSendResume   0x002208    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+    USBCBStdSetDscHandler   0x0021da    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             USBCBSuspend   0x0021ce    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+     USBCBWakeFromSuspend   0x0021d0    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+        USBCB_SOF_Handler   0x0021d2    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              USBCancelIO   0x000a2a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       USBCheckHIDRequest   0x000d10    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+       USBCheckStdRequest   0x0003a8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBConfigureEndpoint   0x0008fc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+  USBCtrlEPAllowDataStage   0x0005c6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBCtrlEPAllowStatusStage   0x00057c    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+         USBCtrlEPService   0x00023e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+ USBCtrlEPServiceComplete   0x0006ea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfInHandler   0x000332    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBCtrlTrfOutHandler   0x000314    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfRxService   0x0007c2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   USBCtrlTrfSetupHandler   0x0002da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfTxService   0x000744    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBDeviceAttach   0x000a60    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBDeviceDetach   0x000a56    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+            USBDeviceInit   0x000038    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+           USBDeviceTasks   0x0000d8    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+        USBEnableEndpoint   0x000956    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+         USBStallEndpoint   0x000992    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBStallHandler   0x0001e6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+  USBStdFeatureReqHandler   0x000450    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBStdGetDscHandler   0x000600    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   USBStdGetStatusHandler   0x00067a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBStdSetCfgHandler   0x00088a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+               USBSuspend   0x00020c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBTransferOnePacket   0x0009b6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       USBWakeFromSuspend   0x000222    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+               USB_CD_Ptr   0x000efb    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+               USB_SD_Ptr   0x000efd    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x002250    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                 WriteSPI   0x000f68    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_writ.c
+  YourHighPriorityISRCode   0x00101e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+   YourLowPriorityISRCode   0x0010b4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              _2jContinue   0x000fc4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x000fce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+       _D10KTCYXCODE_0010   0x0031e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0031f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+        _D10TCYXCODE_000A   0x003276    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003278    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00327a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D1KTCYXCODE_0010   0x000fe8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x000fee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+           ___?:_lbl00014   0x00117e    program     static                          
+           ___?:_lbl00015   0x00116e    program     static                          
+           ___?:_lbl00023   0x001252    program     static                          
+           ___?:_lbl00024   0x001242    program     static                          
+           ___?:_lbl00034   0x00132c    program     static                          
+           ___?:_lbl00035   0x00131c    program     static                          
+           ___?:_lbl00041   0x0013b0    program     static                          
+           ___?:_lbl00042   0x0013a0    program     static                          
+           ___?:_lbl00049   0x001434    program     static                          
+           ___?:_lbl00050   0x001424    program     static                          
+           ___?:_lbl00060   0x00150c    program     static                          
+           ___?:_lbl00061   0x0014fc    program     static                          
+           ___?:_lbl00114   0x001a9e    program     static                          
+           ___?:_lbl00115   0x001a8e    program     static                          
+           ___?:_lbl00127   0x001b7e    program     static                          
+           ___?:_lbl00128   0x001b6e    program     static                          
+           ___?:_lbl00161   0x001f64    program     static                          
+           ___?:_lbl00162   0x001f54    program     static                          
+           ___?:_lbl00171   0x00200a    program     static                          
+           ___?:_lbl00172   0x001ffa    program     static                          
+           ___?:_lbl00178   0x002088    program     static                          
+           ___?:_lbl00179   0x002078    program     static                          
+           ___?:_lbl00183   0x002144    program     static                          
+           ___?:_lbl00184   0x002134    program     static                          
+     ___case_120_lbl00170   0x001fbc    program     static                          
+     ___case_121_lbl00177   0x002038    program     static                          
+      ___case_67_lbl00026   0x001286    program     static                          
+      ___case_75_lbl00037   0x001360    program     static                          
+      ___case_80_lbl00119   0x001ad8    program     static                          
+      ___case_82_lbl00017   0x0011c8    program     static                          
+      ___case_83_lbl00045   0x0013e0    program     static                          
+      ___case_85_lbl00166   0x001f9c    program     static                          
+      ___case_87_lbl00052   0x001464    program     static                          
+         ___else_lbl00070   0x0015d2    program     static                          
+         ___else_lbl00133   0x001d42    program     static                          
+         ___else_lbl00138   0x001d96    program     static                          
+         ___else_lbl00190   0x0020ec    program     static                          
+          ___for_lbl00031   0x001306    program     static                          
+          ___for_lbl00032   0x00130c    program     static                          
+          ___for_lbl00033   0x0012ee    program     static                          
+          ___for_lbl00038   0x001382    program     static                          
+          ___for_lbl00039   0x001388    program     static                          
+          ___for_lbl00040   0x00136a    program     static                          
+          ___for_lbl00046   0x001406    program     static                          
+          ___for_lbl00047   0x00140c    program     static                          
+          ___for_lbl00048   0x0013ee    program     static                          
+          ___for_lbl00053   0x001496    program     static                          
+          ___for_lbl00054   0x00149c    program     static                          
+          ___for_lbl00055   0x00147e    program     static                          
+          ___for_lbl00062   0x00158c    program     static                          
+          ___for_lbl00063   0x001592    program     static                          
+          ___for_lbl00064   0x001534    program     static                          
+          ___for_lbl00071   0x00160e    program     static                          
+          ___for_lbl00072   0x001614    program     static                          
+          ___for_lbl00073   0x0015de    program     static                          
+          ___for_lbl00077   0x0017d2    program     static                          
+          ___for_lbl00078   0x0017d8    program     static                          
+          ___for_lbl00079   0x0017a2    program     static                          
+          ___for_lbl00120   0x001b0a    program     static                          
+          ___for_lbl00121   0x001b10    program     static                          
+          ___for_lbl00122   0x001af2    program     static                          
+          ___for_lbl00167   0x001fd8    program     static                          
+          ___for_lbl00168   0x001fde    program     static                          
+          ___for_lbl00169   0x001fc0    program     static                          
+          ___for_lbl00174   0x002054    program     static                          
+          ___for_lbl00175   0x00205a    program     static                          
+          ___for_lbl00176   0x00203c    program     static                          
+           ___if_lbl00013   0x001162    program     static                          
+           ___if_lbl00020   0x001228    program     static                          
+           ___if_lbl00021   0x001228    program     static                          
+           ___if_lbl00022   0x001236    program     static                          
+           ___if_lbl00025   0x00127e    program     static                          
+           ___if_lbl00029   0x0012e8    program     static                          
+           ___if_lbl00030   0x0012e8    program     static                          
+           ___if_lbl00036   0x001358    program     static                          
+           ___if_lbl00043   0x0013dc    program     static                          
+           ___if_lbl00044   0x0013ea    program     static                          
+           ___if_lbl00051   0x001460    program     static                          
+           ___if_lbl00058   0x0014ea    program     static                          
+           ___if_lbl00059   0x0014ea    program     static                          
+           ___if_lbl00069   0x0015da    program     static                          
+           ___if_lbl00076   0x00174c    program     static                          
+           ___if_lbl00082   0x00183a    program     static                          
+           ___if_lbl00083   0x00183a    program     static                          
+           ___if_lbl00088   0x001876    program     static                          
+           ___if_lbl00091   0x0018ca    program     static                          
+           ___if_lbl00092   0x0018ca    program     static                          
+           ___if_lbl00095   0x001920    program     static                          
+           ___if_lbl00096   0x001920    program     static                          
+           ___if_lbl00113   0x001a82    program     static                          
+           ___if_lbl00117   0x001ad2    program     static                          
+           ___if_lbl00118   0x001ad6    program     static                          
+           ___if_lbl00125   0x001b5c    program     static                          
+           ___if_lbl00126   0x001b5c    program     static                          
+           ___if_lbl00131   0x001cde    program     static                          
+           ___if_lbl00132   0x001d46    program     static                          
+           ___if_lbl00136   0x001da2    program     static                          
+           ___if_lbl00137   0x001da2    program     static                          
+           ___if_lbl00139   0x001dae    program     static                          
+           ___if_lbl00144   0x001de4    program     static                          
+           ___if_lbl00160   0x001f48    program     static                          
+           ___if_lbl00164   0x001f98    program     static                          
+           ___if_lbl00165   0x001f9a    program     static                          
+           ___if_lbl00173   0x002036    program     static                          
+           ___if_lbl00180   0x0020b4    program     static                          
+           ___if_lbl00181   0x0020dc    program     static                          
+           ___if_lbl00182   0x00211c    program     static                          
+           ___if_lbl00185   0x002170    program     static                          
+           ___if_lbl00186   0x002170    program     static                          
+           ___if_lbl00187   0x002170    program     static                          
+           ___if_lbl00188   0x002170    program     static                          
+           ___if_lbl00189   0x002170    program     static                          
+       ___return_lbl00000   0x000004    program     static                          
+       ___return_lbl00000   0x00000c    program     static                          
+       ___return_lbl00001   0x00326a    program     static                          
+       ___return_lbl00001   0x00001c    program     static                          
+       ___return_lbl00002   0x000e74    program     static                          
+       ___return_lbl00002   0x001004    program     static                          
+       ___return_lbl00003   0x00100c    program     static                          
+       ___return_lbl00004   0x00101c    program     static                          
+       ___return_lbl00011   0x002170    program     static                          
+       ___return_lbl00277   0x0026d8    program     static                          
+   ___switchexit_lbl00016   0x0020b6    program     static                          
+        ___while_lbl00018   0x0011f8    program     static                          
+        ___while_lbl00019   0x00122a    program     static                          
+        ___while_lbl00027   0x0012b8    program     static                          
+        ___while_lbl00028   0x0012ea    program     static                          
+        ___while_lbl00056   0x0014ba    program     static                          
+        ___while_lbl00057   0x0014ec    program     static                          
+        ___while_lbl00074   0x001728    program     static                          
+        ___while_lbl00075   0x00174c    program     static                          
+        ___while_lbl00080   0x00180a    program     static                          
+        ___while_lbl00081   0x00183c    program     static                          
+        ___while_lbl00089   0x00189a    program     static                          
+        ___while_lbl00090   0x0018cc    program     static                          
+        ___while_lbl00093   0x0018f0    program     static                          
+        ___while_lbl00094   0x001922    program     static                          
+        ___while_lbl00123   0x001b30    program     static                          
+        ___while_lbl00124   0x001b5e    program     static                          
+        ___while_lbl00129   0x001cba    program     static                          
+        ___while_lbl00130   0x001cde    program     static                          
+        ___while_lbl00134   0x001d74    program     static                          
+        ___while_lbl00135   0x001da4    program     static                          
+               __config_0   0x300000    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_1   0x300001    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              __config_10   0x30000c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              __config_11   0x30000d    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_2   0x300002    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_3   0x300003    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_4   0x300005    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_5   0x300006    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_6   0x300008    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_7   0x300009    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_8   0x30000a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_9   0x30000b    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                   __pa_0   0x0026da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_0   0x000a84    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_0   0x002ef4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_1   0x0026e0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_1   0x000a8c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_1   0x002efe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_10   0x002fae    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_10   0x000aea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_11   0x002fb6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_11   0x000afe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_12   0x002fd8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_12   0x000b08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_13   0x002fe6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_13   0x000b28    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_14   0x000b3c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_14   0x002ff0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_15   0x000b4e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_15   0x002ffe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_16   0x000b5a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_16   0x00300a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_17   0x003016    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_17   0x000b74    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_18   0x003022    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_18   0x000b80    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_19   0x000b8c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_19   0x003038    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_2   0x0026fc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_2   0x002f08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_2   0x000a96    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_20   0x000b94    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_20   0x00304a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_21   0x000b9c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_21   0x003058    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_22   0x000ba8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_22   0x003062    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_23   0x00306c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_23   0x000bb8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_24   0x000bc8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_24   0x003078    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_25   0x000bd6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_25   0x003088    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_26   0x000be4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_26   0x003098    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_27   0x0030a6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_27   0x000bf2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_28   0x0030b4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_28   0x000c00    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_29   0x0030c2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_29   0x000c0e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_3   0x002708    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_3   0x000a9e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_3   0x002f16    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_30   0x0030d0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_30   0x000c1c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_31   0x0030da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_31   0x000c26    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_32   0x0030e4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_32   0x000c3e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_33   0x000c4a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_33   0x003108    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_34   0x000c52    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_34   0x003110    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_35   0x000c66    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_35   0x00311e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_36   0x000c74    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_36   0x003132    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_37   0x00313a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_37   0x000c7e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_38   0x000c88    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_38   0x003148    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_39   0x000c90    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_39   0x003154    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_4   0x002712    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_4   0x000aa8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_4   0x002f1e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_40   0x003160    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_40   0x000c96    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_41   0x00316a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_41   0x000ca6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_42   0x003174    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_42   0x000cac    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_43   0x000cba    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_43   0x003184    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_44   0x000cc8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_44   0x00318a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_45   0x003198    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_45   0x000cd6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_46   0x0031a0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_46   0x000ce0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_47   0x0031a8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_47   0x000cea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_48   0x0031b0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_48   0x000cf2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_49   0x000cfe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_49   0x0031b8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_5   0x002724    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_5   0x000ab2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_5   0x002f28    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_50   0x000d08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_50   0x0031c0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_51   0x0031cc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_6   0x000abc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_6   0x002734    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_6   0x002f30    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_7   0x002742    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_7   0x002f66    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_7   0x000ac4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_8   0x000ad4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_8   0x002f7c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_9   0x000ade    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_9   0x002f9e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               __tmplbl_0   0x00115e    program     static                          
+               __tmplbl_1   0x001158    program     static                          
+              __tmplbl_10   0x001850    program     static                          
+              __tmplbl_11   0x001846    program     static                          
+              __tmplbl_12   0x001a7c    program     static                          
+              __tmplbl_13   0x001a72    program     static                          
+              __tmplbl_14   0x001a68    program     static                          
+              __tmplbl_15   0x001a5e    program     static                          
+              __tmplbl_16   0x001a54    program     static                          
+              __tmplbl_17   0x001a1a    program     static                          
+              __tmplbl_18   0x0019e6    program     static                          
+              __tmplbl_19   0x0019e0    program     static                          
+               __tmplbl_2   0x0015cc    program     static                          
+              __tmplbl_20   0x00311e    program     static                          
+              __tmplbl_20   0x0019ce    program     static                          
+              __tmplbl_21   0x0019bc    program     static                          
+              __tmplbl_21   0x00311e    program     static                          
+              __tmplbl_22   0x0019aa    program     static                          
+              __tmplbl_22   0x00313a    program     static                          
+              __tmplbl_23   0x00313a    program     static                          
+              __tmplbl_23   0x001998    program     static                          
+              __tmplbl_24   0x001986    program     static                          
+              __tmplbl_24   0x000abc    program     static                          
+              __tmplbl_25   0x001972    program     static                          
+              __tmplbl_26   0x00195e    program     static                          
+              __tmplbl_27   0x00194a    program     static                          
+              __tmplbl_28   0x001936    program     static                          
+              __tmplbl_29   0x001a18    program     static                          
+               __tmplbl_3   0x0015c4    program     static                          
+              __tmplbl_30   0x001a52    program     static                          
+              __tmplbl_31   0x001aaa    program     static                          
+              __tmplbl_32   0x001aa2    program     static                          
+              __tmplbl_33   0x001de0    program     static                          
+              __tmplbl_33   0x000abc    program     static                          
+              __tmplbl_34   0x001dd6    program     static                          
+              __tmplbl_35   0x001dcc    program     static                          
+              __tmplbl_36   0x000abc    program     static                          
+              __tmplbl_36   0x001dc2    program     static                          
+              __tmplbl_37   0x001db8    program     static                          
+              __tmplbl_38   0x001f44    program     static                          
+              __tmplbl_39   0x001f3a    program     static                          
+               __tmplbl_4   0x0015bc    program     static                          
+              __tmplbl_40   0x001f30    program     static                          
+              __tmplbl_41   0x001ef6    program     static                          
+              __tmplbl_42   0x001ec2    program     static                          
+              __tmplbl_43   0x001eb8    program     static                          
+              __tmplbl_44   0x001ea2    program     static                          
+              __tmplbl_45   0x001e90    program     static                          
+              __tmplbl_46   0x001e7e    program     static                          
+              __tmplbl_47   0x001e6c    program     static                          
+              __tmplbl_48   0x001e5a    program     static                          
+              __tmplbl_49   0x001e48    program     static                          
+               __tmplbl_5   0x0015b4    program     static                          
+              __tmplbl_50   0x001e34    program     static                          
+              __tmplbl_51   0x001e20    program     static                          
+              __tmplbl_52   0x001e0c    program     static                          
+              __tmplbl_53   0x001df8    program     static                          
+              __tmplbl_54   0x001ef4    program     static                          
+              __tmplbl_55   0x001f2e    program     static                          
+              __tmplbl_56   0x001f70    program     static                          
+              __tmplbl_57   0x001f68    program     static                          
+               __tmplbl_6   0x0015ac    program     static                          
+               __tmplbl_7   0x00186e    program     static                          
+              __tmplbl_76   0x001152    program     static                          
+              __tmplbl_77   0x0016c8    program     static                          
+              __tmplbl_78   0x0016fa    program     static                          
+              __tmplbl_79   0x001c5e    program     static                          
+               __tmplbl_8   0x001864    program     static                          
+              __tmplbl_80   0x001c90    program     static                          
+               __tmplbl_9   0x00185a    program     static                          
+            __zero_memory   0x003230    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                _do_cinit   0x000dd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   _reset   0x001000    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                 _startup   0x003250    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x003246    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+        configDescriptor1   0x000e88    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                copy_loop   0x000e4a    program     static                          
+            copy_one_byte   0x000e50    program     static                          
+               device_dsc   0x000e76    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                     done   0x000e74    program     static                          
+             done_copying   0x000e5e    program     static                          
+                hid_rpt01   0x000edf    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                     jEnd   0x000fd6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x000fb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     loop   0x003260    program     static                          
+                   loop_h   0x00323e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_l   0x003248    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     main   0x0010d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   memset   0x000fa4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    sd000   0x000eb1    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                    sd001   0x000eb5    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                    sd002   0x000ec5    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                     test   0x000df2    program     static                          
+               zero_block   0x00323e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      BDT   0x000400       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+       BothEP0OutUOWNsSet   0x0005a3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+             BuzzerStatus   0x0000fd       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   CCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               CCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CtrlTrfData   0x000428       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+            DelayCounter1   0x000027       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+            DelayCounter2   0x000026       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+             ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+           RC522_Selected   0x0005c4       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+       ReceivedDataBuffer   0x000500       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             RemoteWakeup   0x00059f       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                     SIGN   0x000024       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   Sector   0x0000c5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                 SetupPkt   0x000420       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+         ToSendDataBuffer   0x000540       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                    UADDR   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UCFG   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UCONbits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEIEbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEIRbits   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP0   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP0bits   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP1   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP10   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP10bits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP11   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP11bits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP12   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP13   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP13bits   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP14bits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP15   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP15bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP1bits   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP2   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP2bits   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP3   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP4   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP5bits   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP6   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP6bits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP7bits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP8   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP9   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP9bits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UFRMH   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UFRML   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UFRMLbits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      UIE   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      UIR   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  UIRbits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+   USBActiveConfiguration   0x000581       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+    USBAlternateInterface   0x000582       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+        USBBusIsSuspended   0x0005a0       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferINDataStagePackets   0x0005ac       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferOUTDataStagePackets   0x0005ad       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferStatusStagePacket   0x0005a9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+           USBDeviceState   0x000580       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              USBInHandle   0x0005cb       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             USBOutHandle   0x0005c9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+USBStatusStageEnabledFlag1   0x0005aa       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBStatusStageEnabledFlag2   0x0005ab       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBStatusStageTimeoutCounter   0x0005a8       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                    USTAT   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                USTATcopy   0x0005a1       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 __AARGB0   0x000022       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000021       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000020       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x00001f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x00001e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB7   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x000023       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                __FPFLAGS   0x000025       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000025       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                  __REMB0   0x00001e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  aCardID   0x0005ba       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              aCardSerial   0x0005bf       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           aCardSerialOld   0x0005da       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+           aCardUsageType   0x0000a3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           aCardUserGroup   0x000093       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+aMifareAuthenticationKeyA   0x0005ae       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+aMifareAuthenticationKeyB   0x0005b4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          active_protocol   0x0005ec       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+                  address   0x0005ce       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         blinkStatusValid   0x0005cd       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                 buzz_cnt   0x0005d5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       card_max_users_cnt   0x0000b3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  cmd_cnt   0x0005d6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                cmd_state   0x0005d7       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+     controlTransferState   0x000590       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                curr_byte   0x0005e4       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0005e6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0005e8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                    delay   0x0005c5       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              delay_count   0x0000fe       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+          endpoint_number   0x0005a2       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+               ep_data_in   0x0005a4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              ep_data_out   0x0005a6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+            hid_report_in   0x000433       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+           hid_report_out   0x000430       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                        i   0x000090       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                idle_rate   0x0005eb       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+                  inPipes   0x000591       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                led_count   0x0005df       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               led_gn_cnt   0x0005d3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               led_rd_cnt   0x0005d4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+     mifare_process_flags   0x0000f9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+     mifare_process_timer   0x0000f5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         mifare_rx_buffer   0x000060       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         mifare_tx_buffer   0x000070       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                 outPipes   0x000596       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   pBDTEntryEP0OutCurrent   0x000583       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      pBDTEntryEP0OutNext   0x000585       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              pBDTEntryIn   0x00058b       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+             pBDTEntryOut   0x000587       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                     pDst   0x00059d       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                     prom   0x0005e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+            rc522_command   0x0000b5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             rc522_config   0x000092       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          rc522_sector_nr   0x0000b4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         sCardDataMifare1   0x0000b6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+        shortPacketStatus   0x00058f       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   status   0x000091       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                      str   0x000080       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                    timer   0x0005d8       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                      tmp   0x0005d2       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+       ___return_lbl00000   0x000004    program     static                          
+                   __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+                 High_ISR   0x000008    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00000   0x00000c    program     static                          
+                  Low_ISR   0x000018    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00001   0x00001c    program     static                          
+            USBDeviceInit   0x000038    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+           USBDeviceTasks   0x0000d8    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBStallHandler   0x0001e6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+               USBSuspend   0x00020c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       USBWakeFromSuspend   0x000222    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+         USBCtrlEPService   0x00023e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   USBCtrlTrfSetupHandler   0x0002da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBCtrlTrfOutHandler   0x000314    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfInHandler   0x000332    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       USBCheckStdRequest   0x0003a8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+  USBStdFeatureReqHandler   0x000450    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBCtrlEPAllowStatusStage   0x00057c    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+  USBCtrlEPAllowDataStage   0x0005c6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBStdGetDscHandler   0x000600    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   USBStdGetStatusHandler   0x00067a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+ USBCtrlEPServiceComplete   0x0006ea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfTxService   0x000744    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBCtrlTrfRxService   0x0007c2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      USBStdSetCfgHandler   0x00088a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBConfigureEndpoint   0x0008fc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+        USBEnableEndpoint   0x000956    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+         USBStallEndpoint   0x000992    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     USBTransferOnePacket   0x0009b6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              USBCancelIO   0x000a2a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBDeviceDetach   0x000a56    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          USBDeviceAttach   0x000a60    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_0   0x000a84    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_1   0x000a8c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_2   0x000a96    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_3   0x000a9e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_4   0x000aa8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_5   0x000ab2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              __tmplbl_36   0x000abc    program     static                          
+              __tmplbl_33   0x000abc    program     static                          
+              __tmplbl_24   0x000abc    program     static                          
+                   __pa_6   0x000abc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_7   0x000ac4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_8   0x000ad4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                   __pa_9   0x000ade    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_10   0x000aea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_11   0x000afe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_12   0x000b08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_13   0x000b28    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_14   0x000b3c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_15   0x000b4e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_16   0x000b5a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_17   0x000b74    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_18   0x000b80    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_19   0x000b8c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_20   0x000b94    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_21   0x000b9c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_22   0x000ba8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_23   0x000bb8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_24   0x000bc8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_25   0x000bd6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_26   0x000be4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_27   0x000bf2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_28   0x000c00    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_29   0x000c0e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_30   0x000c1c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_31   0x000c26    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_32   0x000c3e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_33   0x000c4a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_34   0x000c52    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_35   0x000c66    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_36   0x000c74    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_37   0x000c7e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_38   0x000c88    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_39   0x000c90    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_40   0x000c96    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_41   0x000ca6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_42   0x000cac    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_43   0x000cba    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_44   0x000cc8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_45   0x000cd6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_46   0x000ce0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_47   0x000cea    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_48   0x000cf2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_49   0x000cfe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __pa_50   0x000d08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       USBCheckHIDRequest   0x000d10    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+                _do_cinit   0x000dd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x000df2    program     static                          
+                copy_loop   0x000e4a    program     static                          
+            copy_one_byte   0x000e50    program     static                          
+             done_copying   0x000e5e    program     static                          
+                     done   0x000e74    program     static                          
+       ___return_lbl00002   0x000e74    program     static                          
+               device_dsc   0x000e76    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+        configDescriptor1   0x000e88    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                    sd000   0x000eb1    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                    sd001   0x000eb5    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                    sd002   0x000ec5    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                hid_rpt01   0x000edf    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+               USB_CD_Ptr   0x000efb    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+               USB_SD_Ptr   0x000efd    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_descriptors.c
+                  OpenSPI   0x000f04    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_open.c
+                 WriteSPI   0x000f68    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_writ.c
+                   memset   0x000fa4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                    jLoop   0x000fb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+              _2jContinue   0x000fc4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                   _3jEnd   0x000fce    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+                     jEnd   0x000fd6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\memset.asm
+              Delay1KTCYx   0x000fd8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                     D1Kx   0x000fe2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                    D1K_1   0x000fe4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0010   0x000fe8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+        _D1KTCYXCODE_0016   0x000fee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d1ktcyx.asm
+                   _reset   0x001000    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00002   0x001004    program     static                          
+     SignaturePlaceholder   0x001006    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+        Remapped_High_ISR   0x001008    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00003   0x00100c    program     static                          
+               AppVersion   0x001016    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         Remapped_Low_ISR   0x001018    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00004   0x00101c    program     static                          
+  YourHighPriorityISRCode   0x00101e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+   YourLowPriorityISRCode   0x0010b4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                     main   0x0010d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         InitializeSystem   0x0010e4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                ProcessIO   0x001124    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              __tmplbl_76   0x001152    program     static                          
+               __tmplbl_1   0x001158    program     static                          
+               __tmplbl_0   0x00115e    program     static                          
+           ___if_lbl00013   0x001162    program     static                          
+           ___?:_lbl00015   0x00116e    program     static                          
+           ___?:_lbl00014   0x00117e    program     static                          
+      ___case_82_lbl00017   0x0011c8    program     static                          
+        ___while_lbl00018   0x0011f8    program     static                          
+           ___if_lbl00020   0x001228    program     static                          
+           ___if_lbl00021   0x001228    program     static                          
+        ___while_lbl00019   0x00122a    program     static                          
+           ___if_lbl00022   0x001236    program     static                          
+           ___?:_lbl00024   0x001242    program     static                          
+           ___?:_lbl00023   0x001252    program     static                          
+           ___if_lbl00025   0x00127e    program     static                          
+      ___case_67_lbl00026   0x001286    program     static                          
+        ___while_lbl00027   0x0012b8    program     static                          
+           ___if_lbl00030   0x0012e8    program     static                          
+           ___if_lbl00029   0x0012e8    program     static                          
+        ___while_lbl00028   0x0012ea    program     static                          
+          ___for_lbl00033   0x0012ee    program     static                          
+          ___for_lbl00031   0x001306    program     static                          
+          ___for_lbl00032   0x00130c    program     static                          
+           ___?:_lbl00035   0x00131c    program     static                          
+           ___?:_lbl00034   0x00132c    program     static                          
+           ___if_lbl00036   0x001358    program     static                          
+      ___case_75_lbl00037   0x001360    program     static                          
+          ___for_lbl00040   0x00136a    program     static                          
+          ___for_lbl00038   0x001382    program     static                          
+          ___for_lbl00039   0x001388    program     static                          
+           ___?:_lbl00042   0x0013a0    program     static                          
+           ___?:_lbl00041   0x0013b0    program     static                          
+           ___if_lbl00043   0x0013dc    program     static                          
+      ___case_83_lbl00045   0x0013e0    program     static                          
+           ___if_lbl00044   0x0013ea    program     static                          
+          ___for_lbl00048   0x0013ee    program     static                          
+          ___for_lbl00046   0x001406    program     static                          
+          ___for_lbl00047   0x00140c    program     static                          
+           ___?:_lbl00050   0x001424    program     static                          
+           ___?:_lbl00049   0x001434    program     static                          
+           ___if_lbl00051   0x001460    program     static                          
+      ___case_87_lbl00052   0x001464    program     static                          
+          ___for_lbl00055   0x00147e    program     static                          
+          ___for_lbl00053   0x001496    program     static                          
+          ___for_lbl00054   0x00149c    program     static                          
+        ___while_lbl00056   0x0014ba    program     static                          
+           ___if_lbl00059   0x0014ea    program     static                          
+           ___if_lbl00058   0x0014ea    program     static                          
+        ___while_lbl00057   0x0014ec    program     static                          
+           ___?:_lbl00061   0x0014fc    program     static                          
+           ___?:_lbl00060   0x00150c    program     static                          
+          ___for_lbl00064   0x001534    program     static                          
+          ___for_lbl00062   0x00158c    program     static                          
+          ___for_lbl00063   0x001592    program     static                          
+               __tmplbl_6   0x0015ac    program     static                          
+               __tmplbl_5   0x0015b4    program     static                          
+               __tmplbl_4   0x0015bc    program     static                          
+               __tmplbl_3   0x0015c4    program     static                          
+               __tmplbl_2   0x0015cc    program     static                          
+         ___else_lbl00070   0x0015d2    program     static                          
+           ___if_lbl00069   0x0015da    program     static                          
+          ___for_lbl00073   0x0015de    program     static                          
+          ___for_lbl00071   0x00160e    program     static                          
+          ___for_lbl00072   0x001614    program     static                          
+              __tmplbl_77   0x0016c8    program     static                          
+              __tmplbl_78   0x0016fa    program     static                          
+        ___while_lbl00074   0x001728    program     static                          
+        ___while_lbl00075   0x00174c    program     static                          
+           ___if_lbl00076   0x00174c    program     static                          
+          ___for_lbl00079   0x0017a2    program     static                          
+          ___for_lbl00077   0x0017d2    program     static                          
+          ___for_lbl00078   0x0017d8    program     static                          
+        ___while_lbl00080   0x00180a    program     static                          
+           ___if_lbl00082   0x00183a    program     static                          
+           ___if_lbl00083   0x00183a    program     static                          
+        ___while_lbl00081   0x00183c    program     static                          
+              __tmplbl_11   0x001846    program     static                          
+              __tmplbl_10   0x001850    program     static                          
+               __tmplbl_9   0x00185a    program     static                          
+               __tmplbl_8   0x001864    program     static                          
+               __tmplbl_7   0x00186e    program     static                          
+           ___if_lbl00088   0x001876    program     static                          
+        ___while_lbl00089   0x00189a    program     static                          
+           ___if_lbl00091   0x0018ca    program     static                          
+           ___if_lbl00092   0x0018ca    program     static                          
+        ___while_lbl00090   0x0018cc    program     static                          
+        ___while_lbl00093   0x0018f0    program     static                          
+           ___if_lbl00095   0x001920    program     static                          
+           ___if_lbl00096   0x001920    program     static                          
+        ___while_lbl00094   0x001922    program     static                          
+              __tmplbl_28   0x001936    program     static                          
+              __tmplbl_27   0x00194a    program     static                          
+              __tmplbl_26   0x00195e    program     static                          
+              __tmplbl_25   0x001972    program     static                          
+              __tmplbl_24   0x001986    program     static                          
+              __tmplbl_23   0x001998    program     static                          
+              __tmplbl_22   0x0019aa    program     static                          
+              __tmplbl_21   0x0019bc    program     static                          
+              __tmplbl_20   0x0019ce    program     static                          
+              __tmplbl_19   0x0019e0    program     static                          
+              __tmplbl_18   0x0019e6    program     static                          
+              __tmplbl_29   0x001a18    program     static                          
+              __tmplbl_17   0x001a1a    program     static                          
+              __tmplbl_30   0x001a52    program     static                          
+              __tmplbl_16   0x001a54    program     static                          
+              __tmplbl_15   0x001a5e    program     static                          
+              __tmplbl_14   0x001a68    program     static                          
+              __tmplbl_13   0x001a72    program     static                          
+              __tmplbl_12   0x001a7c    program     static                          
+           ___if_lbl00113   0x001a82    program     static                          
+           ___?:_lbl00115   0x001a8e    program     static                          
+           ___?:_lbl00114   0x001a9e    program     static                          
+              __tmplbl_32   0x001aa2    program     static                          
+              __tmplbl_31   0x001aaa    program     static                          
+           ___if_lbl00117   0x001ad2    program     static                          
+           ___if_lbl00118   0x001ad6    program     static                          
+      ___case_80_lbl00119   0x001ad8    program     static                          
+          ___for_lbl00122   0x001af2    program     static                          
+          ___for_lbl00120   0x001b0a    program     static                          
+          ___for_lbl00121   0x001b10    program     static                          
+        ___while_lbl00123   0x001b30    program     static                          
+           ___if_lbl00126   0x001b5c    program     static                          
+           ___if_lbl00125   0x001b5c    program     static                          
+        ___while_lbl00124   0x001b5e    program     static                          
+           ___?:_lbl00128   0x001b6e    program     static                          
+           ___?:_lbl00127   0x001b7e    program     static                          
+              __tmplbl_79   0x001c5e    program     static                          
+              __tmplbl_80   0x001c90    program     static                          
+        ___while_lbl00129   0x001cba    program     static                          
+        ___while_lbl00130   0x001cde    program     static                          
+           ___if_lbl00131   0x001cde    program     static                          
+         ___else_lbl00133   0x001d42    program     static                          
+           ___if_lbl00132   0x001d46    program     static                          
+        ___while_lbl00134   0x001d74    program     static                          
+         ___else_lbl00138   0x001d96    program     static                          
+           ___if_lbl00136   0x001da2    program     static                          
+           ___if_lbl00137   0x001da2    program     static                          
+        ___while_lbl00135   0x001da4    program     static                          
+           ___if_lbl00139   0x001dae    program     static                          
+              __tmplbl_37   0x001db8    program     static                          
+              __tmplbl_36   0x001dc2    program     static                          
+              __tmplbl_35   0x001dcc    program     static                          
+              __tmplbl_34   0x001dd6    program     static                          
+              __tmplbl_33   0x001de0    program     static                          
+           ___if_lbl00144   0x001de4    program     static                          
+              __tmplbl_53   0x001df8    program     static                          
+              __tmplbl_52   0x001e0c    program     static                          
+              __tmplbl_51   0x001e20    program     static                          
+              __tmplbl_50   0x001e34    program     static                          
+              __tmplbl_49   0x001e48    program     static                          
+              __tmplbl_48   0x001e5a    program     static                          
+              __tmplbl_47   0x001e6c    program     static                          
+              __tmplbl_46   0x001e7e    program     static                          
+              __tmplbl_45   0x001e90    program     static                          
+              __tmplbl_44   0x001ea2    program     static                          
+              __tmplbl_43   0x001eb8    program     static                          
+              __tmplbl_42   0x001ec2    program     static                          
+              __tmplbl_54   0x001ef4    program     static                          
+              __tmplbl_41   0x001ef6    program     static                          
+              __tmplbl_55   0x001f2e    program     static                          
+              __tmplbl_40   0x001f30    program     static                          
+              __tmplbl_39   0x001f3a    program     static                          
+              __tmplbl_38   0x001f44    program     static                          
+           ___if_lbl00160   0x001f48    program     static                          
+           ___?:_lbl00162   0x001f54    program     static                          
+           ___?:_lbl00161   0x001f64    program     static                          
+              __tmplbl_57   0x001f68    program     static                          
+              __tmplbl_56   0x001f70    program     static                          
+           ___if_lbl00164   0x001f98    program     static                          
+           ___if_lbl00165   0x001f9a    program     static                          
+      ___case_85_lbl00166   0x001f9c    program     static                          
+     ___case_120_lbl00170   0x001fbc    program     static                          
+          ___for_lbl00169   0x001fc0    program     static                          
+          ___for_lbl00167   0x001fd8    program     static                          
+          ___for_lbl00168   0x001fde    program     static                          
+           ___?:_lbl00172   0x001ffa    program     static                          
+           ___?:_lbl00171   0x00200a    program     static                          
+           ___if_lbl00173   0x002036    program     static                          
+     ___case_121_lbl00177   0x002038    program     static                          
+          ___for_lbl00176   0x00203c    program     static                          
+          ___for_lbl00174   0x002054    program     static                          
+          ___for_lbl00175   0x00205a    program     static                          
+           ___?:_lbl00179   0x002078    program     static                          
+           ___?:_lbl00178   0x002088    program     static                          
+           ___if_lbl00180   0x0020b4    program     static                          
+   ___switchexit_lbl00016   0x0020b6    program     static                          
+           ___if_lbl00181   0x0020dc    program     static                          
+         ___else_lbl00190   0x0020ec    program     static                          
+           ___if_lbl00182   0x00211c    program     static                          
+           ___?:_lbl00184   0x002134    program     static                          
+           ___?:_lbl00183   0x002144    program     static                          
+           ___if_lbl00185   0x002170    program     static                          
+           ___if_lbl00186   0x002170    program     static                          
+           ___if_lbl00187   0x002170    program     static                          
+           ___if_lbl00188   0x002170    program     static                          
+           ___if_lbl00189   0x002170    program     static                          
+       ___return_lbl00011   0x002170    program     static                          
+           BlinkUSBStatus   0x002172    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             USBCBSuspend   0x0021ce    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+     USBCBWakeFromSuspend   0x0021d0    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+        USBCB_SOF_Handler   0x0021d2    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+        USBCBErrorHandler   0x0021d4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       USBCBCheckOtherReq   0x0021d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+    USBCBStdSetDscHandler   0x0021da    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              USBCBInitEP   0x0021dc    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+          USBCBSendResume   0x002208    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+USER_USB_CALLBACK_EVENT_HANDLER   0x002250    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             CardDataFail   0x0022e4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+          CardDataSucceed   0x00238a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+            ReadHotelCard   0x0023b4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+             CopyCardData   0x0025ee    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  Restart   0x0026d6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+       ___return_lbl00277   0x0026d8    program     static                          
+                   __pa_0   0x0026da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_1   0x0026e0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_2   0x0026fc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_3   0x002708    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_4   0x002712    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_5   0x002724    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_6   0x002734    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                   __pa_7   0x002742    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               RC522_Init   0x002750    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Service   0x00277e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Check   0x0027b8    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Compare   0x0027e6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+      RC522_WriteRegister   0x00281e    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_ReadRegister   0x002838    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         RC522_SetBitMask   0x002850    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_ClearBitMask   0x002862    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_AntennaOn   0x00287a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         RC522_AntennaOff   0x002898    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Reset   0x0028a2    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            RC522_Request   0x0028e0    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             RC522_ToCard   0x002930    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           RC522_Anticoll   0x002ada    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       RC522_CalculateCRC   0x002b5a    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_SelectTag   0x002bd4    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Auth   0x002c70    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Read   0x002cf6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              RC522_Write   0x002d74    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+               RC522_Halt   0x002e12    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           RC522_ReadCard   0x002e52    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_WriteCard   0x002e82    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          RC522_ClearData   0x002eb6    program     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_0   0x002ef4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_1   0x002efe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_2   0x002f08    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_3   0x002f16    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_4   0x002f1e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_5   0x002f28    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_6   0x002f30    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_7   0x002f66    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_8   0x002f7c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   __pa_9   0x002f9e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_10   0x002fae    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_11   0x002fb6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_12   0x002fd8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_13   0x002fe6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_14   0x002ff0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_15   0x002ffe    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_16   0x00300a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_17   0x003016    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_18   0x003022    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_19   0x003038    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_20   0x00304a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_21   0x003058    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_22   0x003062    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_23   0x00306c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_24   0x003078    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_25   0x003088    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_26   0x003098    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_27   0x0030a6    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_28   0x0030b4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_29   0x0030c2    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_30   0x0030d0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_31   0x0030da    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_32   0x0030e4    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_33   0x003108    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_34   0x003110    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_35   0x00311e    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              __tmplbl_21   0x00311e    program     static                          
+              __tmplbl_20   0x00311e    program     static                          
+                  __pa_36   0x003132    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              __tmplbl_23   0x00313a    program     static                          
+              __tmplbl_22   0x00313a    program     static                          
+                  __pa_37   0x00313a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_38   0x003148    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_39   0x003154    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_40   0x003160    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_41   0x00316a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_42   0x003174    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_43   0x003184    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_44   0x00318a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_45   0x003198    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_46   0x0031a0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_47   0x0031a8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_48   0x0031b0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_49   0x0031b8    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_50   0x0031c0    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  __pa_51   0x0031cc    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             Delay10KTCYx   0x0031d4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kx   0x0031de    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                   D10K_1   0x0031e0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_0010   0x0031e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                    D10Kl   0x0031ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+       _D10KTCYXCODE_001C   0x0031f0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10ktcyx.asm
+                  ReadSPI   0x003202    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\SPI\spi_read.c
+            __zero_memory   0x003230    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               zero_block   0x00323e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_h   0x00323e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                compare_l   0x003246    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   loop_l   0x003248    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 _startup   0x003250    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x003260    program     static                          
+       ___return_lbl00001   0x00326a    program     static                          
+              Delay10TCYx   0x00326c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x003274    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x003276    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x003278    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x00327a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x00327c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+               __config_0   0x300000    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_1   0x300001    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_2   0x300002    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_3   0x300003    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_4   0x300005    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_5   0x300006    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_6   0x300008    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_7   0x300009    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_8   0x30000a    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               __config_9   0x30000b    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              __config_10   0x30000c    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              __config_11   0x30000d    program     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  __tmp_0   0x000000       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                 __AARGB7   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB3   0x00001b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB2   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB6   0x00001c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB1   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB5   0x00001d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                  __REMB0   0x00001e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB4   0x00001e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB3   0x00001f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB2   0x000020       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB1   0x000021       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                 __AARGB0   0x000022       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                   __AEXP   0x000023       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\aarg.asm
+                     SIGN   0x000024       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            __FPFLAGSbits   0x000025       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+                __FPFLAGS   0x000025       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\cmath18.asm
+            DelayCounter2   0x000026       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd2.asm
+            DelayCounter1   0x000027       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\delayd1.asm
+         mifare_rx_buffer   0x000060       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         mifare_tx_buffer   0x000070       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                      str   0x000080       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                        i   0x000090       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   status   0x000091       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             rc522_config   0x000092       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           aCardUserGroup   0x000093       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           aCardUsageType   0x0000a3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+       card_max_users_cnt   0x0000b3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+          rc522_sector_nr   0x0000b4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+            rc522_command   0x0000b5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+         sCardDataMifare1   0x0000b6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                   Sector   0x0000c5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+     mifare_process_timer   0x0000f5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+     mifare_process_flags   0x0000f9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             BuzzerStatus   0x0000fd       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              delay_count   0x0000fe       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                      BDT   0x000400       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                 SetupPkt   0x000420       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              CtrlTrfData   0x000428       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+           hid_report_out   0x000430       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+            hid_report_in   0x000433       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       ReceivedDataBuffer   0x000500       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         ToSendDataBuffer   0x000540       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+           USBDeviceState   0x000580       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   USBActiveConfiguration   0x000581       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+    USBAlternateInterface   0x000582       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+   pBDTEntryEP0OutCurrent   0x000583       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+      pBDTEntryEP0OutNext   0x000585       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+             pBDTEntryOut   0x000587       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              pBDTEntryIn   0x00058b       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+        shortPacketStatus   0x00058f       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+     controlTransferState   0x000590       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                  inPipes   0x000591       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                 outPipes   0x000596       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                     pDst   0x00059d       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+             RemoteWakeup   0x00059f       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+        USBBusIsSuspended   0x0005a0       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+                USTATcopy   0x0005a1       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+          endpoint_number   0x0005a2       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+       BothEP0OutUOWNsSet   0x0005a3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+               ep_data_in   0x0005a4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+              ep_data_out   0x0005a6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBStatusStageTimeoutCounter   0x0005a8       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferStatusStagePacket   0x0005a9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBStatusStageEnabledFlag1   0x0005aa       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBStatusStageEnabledFlag2   0x0005ab       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferINDataStagePackets   0x0005ac       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+USBDeferOUTDataStagePackets   0x0005ad       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_device.c
+aMifareAuthenticationKeyA   0x0005ae       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+aMifareAuthenticationKeyB   0x0005b4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                  aCardID   0x0005ba       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+              aCardSerial   0x0005bf       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+           RC522_Selected   0x0005c4       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+                    delay   0x0005c5       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\rc522.c
+             USBOutHandle   0x0005c9       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+              USBInHandle   0x0005cb       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+         blinkStatusValid   0x0005cd       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  address   0x0005ce       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                      tmp   0x0005d2       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               led_gn_cnt   0x0005d3       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+               led_rd_cnt   0x0005d4       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                 buzz_cnt   0x0005d5       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                  cmd_cnt   0x0005d6       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                cmd_state   0x0005d7       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                    timer   0x0005d8       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+           aCardSerialOld   0x0005da       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                led_count   0x0005df       data     static F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\main.c
+                     prom   0x0005e1       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                curr_byte   0x0005e4       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               curr_entry   0x0005e6       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                 data_ptr   0x0005e8       data     static E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                idle_rate   0x0005eb       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+          active_protocol   0x0005ec       data     extern F:\SkyDrive\OtvoreniProjekti\USB_CardReaderWiter\fw\DE-090617\Src\usb_function_hid.c
+                     UFRM   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UFRML   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UFRMLbits   0x000f66       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UFRMH   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UFRMHbits   0x000f67       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  UIRbits   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      UIR   0x000f68       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  UIEbits   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      UIE   0x000f69       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEIRbits   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEIR   0x000f6a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEIEbits   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEIE   0x000f6b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                USTATbits   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    USTAT   0x000f6c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UCON   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UCONbits   0x000f6d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UADDRbits   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UADDR   0x000f6e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UCFGbits   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UCFG   0x000f6f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP0   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP0bits   0x000f70       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP1bits   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP1   0x000f71       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP2   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP2bits   0x000f72       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP3bits   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP3   0x000f73       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP4bits   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP4   0x000f74       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP5bits   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP5   0x000f75       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP6   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP6bits   0x000f76       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP7   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP7bits   0x000f77       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP8   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP8bits   0x000f78       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     UEP9   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 UEP9bits   0x000f79       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP10bits   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP10   0x000f7a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP11bits   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP11   0x000f7b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP12   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP12bits   0x000f7c       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP13   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP13bits   0x000f7d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP14bits   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP14   0x000f7e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                UEP15bits   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    UEP15   0x000f7f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTAbits   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTA   0x000f80       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTBbits   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTB   0x000f81       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTCbits   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTC   0x000f82       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PORTE   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                PORTEbits   0x000f84       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATA   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATAbits   0x000f89       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATBbits   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATB   0x000f8a       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     LATC   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 LATCbits   0x000f8b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISAbits   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISA   0x000f92       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISBbits   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISB   0x000f93       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 DDRCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     DDRC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TRISCbits   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TRISC   0x000f94       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  OSCTUNE   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              OSCTUNEbits   0x000f9b       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIE1bits   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE1   0x000f9d       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIR1bits   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR1   0x000f9e       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     IPR1   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 IPR1bits   0x000f9f       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIE2bits   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIE2   0x000fa0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PIR2   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 PIR2bits   0x000fa1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 IPR2bits   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     IPR2   0x000fa2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EECON1   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               EECON1bits   0x000fa6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EECON2   0x000fa7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   EEDATA   0x000fa8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    EEADR   0x000fa9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    RCSTA   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                RCSTAbits   0x000fab       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                TXSTAbits   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TXSTA   0x000fac       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TXREG   0x000fad       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    RCREG   0x000fae       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    SPBRG   0x000faf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SPBRGH   0x000fb0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T3CONbits   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T3CON   0x000fb1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR3L   0x000fb2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR3H   0x000fb3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                CMCONbits   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CMCON   0x000fb4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               CVRCONbits   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CVRCON   0x000fb5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               CCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  ECCP1AS   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              ECCP1ASbits   0x000fb6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 ECCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+             ECCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP1DELbits   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP1DEL   0x000fb7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              BAUDCTLbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  BAUDCTL   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              BAUDCONbits   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  BAUDCON   0x000fb8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP2CONbits   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP2CON   0x000fba       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CCPR2   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR2L   0x000fbb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR2H   0x000fbc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              CCP1CONbits   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  CCP1CON   0x000fbd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    CCPR1   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR1L   0x000fbe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   CCPR1H   0x000fbf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON2   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON2bits   0x000fc0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON1bits   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    ADRES   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADRESL   0x000fc3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   ADRESH   0x000fc4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPCON2   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPCON2bits   0x000fc5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPCON1   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPCON1bits   0x000fc6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  SSPSTAT   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              SSPSTATbits   0x000fc7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SSPADD   0x000fc8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   SSPBUF   0x000fc9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T2CONbits   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T2CON   0x000fca       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      PR2   0x000fcb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TMR2   0x000fcc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T1CONbits   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T1CON   0x000fcd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR1L   0x000fce       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR1H   0x000fcf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 RCONbits   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     RCON   0x000fd0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   WDTCON   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               WDTCONbits   0x000fd1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               LVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   LVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              HLVDCONbits   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  HLVDCON   0x000fd2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               OSCCONbits   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   OSCCON   0x000fd3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    T0CON   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                T0CONbits   0x000fd5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR0L   0x000fd6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    TMR0H   0x000fd7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               STATUSbits   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   STATUS   0x000fd8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR2L   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR2   0x000fd9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR2H   0x000fda       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW2   0x000fdb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC2   0x000fdc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC2   0x000fdd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC2   0x000fde       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF2   0x000fdf       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      BSR   0x000fe0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR1   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR1L   0x000fe1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR1H   0x000fe2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW1   0x000fe3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC1   0x000fe4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC1   0x000fe5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC1   0x000fe6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF1   0x000fe7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     WREG   0x000fe8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     FSR0   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR0L   0x000fe9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    FSR0H   0x000fea       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PLUSW0   0x000feb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  PREINC0   0x000fec       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTDEC0   0x000fed       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                 POSTINC0   0x000fee       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    INDF0   0x000fef       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              INTCON3bits   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  INTCON3   0x000ff0       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+              INTCON2bits   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  INTCON2   0x000ff1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               INTCONbits   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   INTCON   0x000ff2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     PROD   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PRODL   0x000ff3       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                    PRODH   0x000ff4       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   TABLAT   0x000ff5       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   TBLPTR   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRL   0x000ff6       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRH   0x000ff7       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                  TBLPTRU   0x000ff8       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      PCL   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                       PC   0x000ff9       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PCLATH   0x000ffa       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   PCLATU   0x000ffb       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                   STKPTR   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+               STKPTRbits   0x000ffc       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                      TOS   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSL   0x000ffd       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSH   0x000ffe       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+                     TOSU   0x000fff       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f2550.asm
+
+

@@ -1,0 +1,115 @@
+#define CARD_POOL_EXPIRY_TIME_ADDRESS				(Sector_3.BlockData.B_Dat_1[0])
+#define CARD_POOL_NUMBER_OF_USERS_ADDRESS			(Sector_3.BlockData.B_Dat_1[6])
+#define CARD_POOL_TYPE_ADDRESS						(Sector_3.BlockData.B_Dat_1[7])
+#define CARD_POOL_SYSTEM_ID							(Sector_3.BlockData.B_Dat_1[8])
+#define CARD_POOL_TAG_TYPE_ADDRESS					(Sector_3.BlockData.B_Dat_1[10])
+#define CARD_POOL_USER_GROUP_ADDRESS				(Sector_3.BlockData.B_Dat_0[11])
+
+
+#define CARD_TYPE_ONE_TIME					('O')
+#define CARD_TYPE_MULTI						('E')
+#define CARD_TYPE_PRESET					('F')
+
+#define CARD_TAG_TYPE_KEY_RING				('Q')
+#define CARD_TAG_TYPE_CLASIC				('C')
+#define CARD_TAG_TYPE_WRIST			        ('W')
+
+
+#define CARD_USER_GROUP_GUEST				('G')
+#define CARD_USER_GROUP_HANDMAID			('H')
+#define CARD_USER_GROUP_MANAGER				('M')
+#define CARD_USER_GROUP_SERVICE				('S')
+#define CARD_USER_GROUP_PRESET				('P')
+#define CARD_USER_GROUP_KINDERGARDEN		('K')
+#define CARD_USER_GROUP_POOL				('B')
+#define CARD_USER_GROUP_PARKING				('R')
+#define CARD_USER_GROUP_PARKING				('H')
+
+
+            OUTBuffer(1) = Encoding.ASCII.GetBytes("P")(0) 
+'vrijeme
+	    OUTBuffer(2) = Encoding.ASCII.GetBytes(dan.Substring(0, 1))(0)
+            OUTBuffer(3) = Encoding.ASCII.GetBytes(dan.Substring(1, 1))(0)
+            OUTBuffer(4) = Encoding.ASCII.GetBytes(mje.Substring(0, 1))(0)
+            OUTBuffer(5) = Encoding.ASCII.GetBytes(mje.Substring(1, 1))(0)
+            OUTBuffer(6) = Encoding.ASCII.GetBytes(god.Substring(0, 1))(0)
+            OUTBuffer(7) = Encoding.ASCII.GetBytes(god.Substring(1, 1))(0)
+            OUTBuffer(8) = Encoding.ASCII.GetBytes(sat.Substring(0, 1))(0)
+            OUTBuffer(9) = Encoding.ASCII.GetBytes(sat.Substring(1, 1))(0)
+            OUTBuffer(10) = Encoding.ASCII.GetBytes(min.Substring(0, 1))(0)
+            OUTBuffer(11) = Encoding.ASCII.GetBytes(min.Substring(1, 1))(0)
+' broj korisnika
+            OUTBuffer(12) = Encoding.ASCII.GetBytes(adr.Substring(adr.Length - 2, 1))(0)
+            OUTBuffer(13) = Encoding.ASCII.GetBytes(adr.Substring(adr.Length - 1, 1))(0)
+  ' C kartica, W narukvica, Q privjesak
+	    OUTBuffer(14)
+ ' 0 jednokratno, 1 vremenski
+	    OUTBuffer(15) 
+ 'id objekta 16-20
+  	    OUTBuffer(16) = Encoding.ASCII.GetBytes(adrid.Substring(adrid.Length - 5, 1))(0) '= 1 from sys ID'
+            OUTBuffer(17) = Encoding.ASCII.GetBytes(adrid.Substring(adrid.Length - 4, 1))(0) '= 2 from sys ID'
+            OUTBuffer(18) = Encoding.ASCII.GetBytes(adrid.Substring(adrid.Length - 3, 1))(0) '= 3 from sys ID'
+            OUTBuffer(19) = Encoding.ASCII.GetBytes(adrid.Substring(adrid.Length - 2, 1))(0) '= 4 from sys ID'
+            OUTBuffer(20) = Encoding.ASCII.GetBytes(adrid.Substring(adrid.Length - 1, 1))(0) '= 5 from sys ID
+'pool
+            OUTBuffer(21) = Encoding.ASCII.GetBytes("B")(0)
+
+1 -P
+2- DAN
+3- DAN
+4- MJE
+5- MJE
+6- GOD
+7 -GOD
+8 -SAT
+9 -SAT
+10-MIN
+11-MIN
+
+12-BROJ KORISNIKA
+13-BROJ KORISNIKA
+14-C KARTICA,W nar, Q pri
+15-0 JEDNOKRATNO 1 VREMENSKI
+
+16-ID OBJEKATA
+17-ID OBJEKATA
+18-ID OBJEKATA
+19-ID OBJEKATA
+20-ID OBJEKATA
+
+21-"B" BAZEN
+22-"B" RAMPA
+23-"B" itd...
+24-"B" itd...
+25-"B" itd...
+26-"B" itd...
+
+27-"B" PON
+28-"B" UT
+29-"B" SR
+30-"B" CE
+31-"B" PE
+32-"B" SU
+33-"B" NE
+
+
+34-ID SLIKE
+35-ID SLIKE
+36-ID SLIKE
+37-ID SLIKE
+
+38- DUZINA BORAVKA
+39- DUZINA BORAVKA
+
+40-SAT OD
+41-SAT OD
+42-MIN OD
+43-MIN OD
+
+44- SAT DO
+45- SAT DO
+46- MIN DO
+47- MIN DO
+
+48- GRUPA KOR
+49- GRUPA KOR

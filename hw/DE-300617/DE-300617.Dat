@@ -1,0 +1,42 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~DE-300617.PrjPcb|ReportField=ProjectFullPath~F:\DesktopTemp\USB_CardReaderWiter\hw\DE-300617\DE-300617.PrjPcb|ReportField=Title~Bill of Materials For PCB Document [DE-300617.PcbDoc]|ReportField=TotalQuantity~88|ReportField=ReportTime~15:47:56|ReportField=ReportDate~8.12.2017.|ReportField=ReportDateTime~8.12.2017. 15:47:56|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=DataSourceFileName~DE-300617.PcbDoc|ReportField=DataSourceFullPath~F:\DesktopTemp\USB_CardReaderWiter\hw\DE-300617\DE-300617.PcbDoc
+1|22uF|Midget Conformal Coated Solid Tantalum Chip Capacitor: 22uF, 20% Tolerance, 15 WVDC @ +85°C, Surge = 20V|C1, C2, C3|F|194D226X0015F2|3
+2|100nF|Ceramic Chip Capacitor - Standard|C4, C5, C7, C9, C12, C13, C14, C21, C26, C29, C30, C31, C32, C35|0603|C0603|14
+3|10nF|Ceramic Chip Capacitor - Standard|C6|0603|C0603|1
+4||Ceramic Chip Capacitor - Standard|C8, C10, C11, C17, C19, C22, C23, C24, C25|0805|C0805|9
+5|22pF|Ceramic Chip Capacitor - Standard|C15, C16, C27, C28|0603|C0603|4
+6|6p8|Ceramic Chip Capacitor - Standard|C18, C20|0603|C0603|2
+7|4u7|Ceramic Chip Capacitor - Standard|C33|0805|C0805|1
+8|1uF|Ceramic Chip Capacitor - Standard|C34|0603|C0603|1
+9|C0805|Ceramic Chip Capacitor - Standard|C36|0805|C0805|1
+10|1N4001|Schottky Rectifier|D1|SMA|10MQ060N|1
+11|NF|General-purpose Diode|D2|SOD323|BAS321|1
+12|LED_GREEN||D3|LED 3mm|LED 3mm|1
+13|BZX84-3V6|Voltage Regulator Diode|D4, D6|SOT23_N|BZX84-A4V7|2
+14|LED_RED||D5|LED 3mm|LED 3mm|1
+15|BLM15AG121|SMD chip inductor|L1|0402-A|Chip inductor|1
+16|Buzzer 5Vdc|5Vdc PCB buzzer|LS1|BUZZER|BUZZER|1
+17|DC_PWR|Header, 2-Pin|P1|HDR1X2|Header 2|1
+18|EXTEND|Header, 5-Pin, Dual row|P2|HDR2X5|Header 5X2|1
+19|ENC28J60|Header, 5-Pin, Dual row|P3|HDR2X5|Header 5X2|1
+20|HC12_RADIO|Header, 5-Pin|P4|HDR1X5|Header 5|1
+21|RC522|Header, 8-Pin|P5|HDR1X8|Header 8|1
+22|3V_BATT|Header, 2-Pin|P6|HDR1X2|Header 2|1
+23|USB|USB connector B mini|P7|USB mini B|USB mini B|1
+24|NRF24L01|Header, 4-Pin, Dual row|P8|HDR2X4|Header 4X2|1
+25|MMBT2222|NPN General-purpose Transistor|Q1, Q2, Q3|SOT23_N|BC817|3
+26|0R|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R1, R23, R27|ERA-0603|ERAV|3
+27|220R|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R2, R4|ERA-0603|ERAV|2
+28|1K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R3, R19|ERA-0603|ERAV|2
+29|10K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R5, R8, R9, R10, R11, R12, R13, R14, R15, R17, R20, R22|ERA-0603|ERAV|12
+30|4K7|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R6, R7|ERA-0603|ERAV|2
+31|47K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R16|ERA-0603|ERAV|1
+32|33K|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R18|ERA-0603|ERAV|1
+33|1K5|Metal Film Thermosensitive Chip Resistor, 0.56 Ohm to 10k Ohm Range, 5% Tolerance, 0603 Size, 0.063 W|R21|ERA-0603|ERAV|1
+34|22R|Rectangular Thick Film Chip Resistor, 10 Ohm to 330k Ohm Range, 0.1% and 0.5% Tolerance, 0603 Size, 0.063 W|R24, R25|ERA-0603|ERA3Y|2
+35|100K|Rectangular Thick Film Chip Resistor, 10 Ohm to 330k Ohm Range, 0.1% and 0.5% Tolerance, 0603 Size, 0.063 W|R26|ERA-0603|ERA3Y|1
+36|L78L05ACUTR|Positive Voltage Regulator, 5V, 4-Pin SOT-89, Tape and Reel|U1|SOT-89_N|L78L05ACUTR|1
+37|REG1117-3.3|800mA and 1A Low Dropout Positive Regulator 2.85V, 3.3V, 5V, and Adjustable|U2|ZZ311|REG1117-3.3|1
+38|STM32F103C8T6|ARM Cortex-M3 32-bit MCU, 64 KB Flash, 20 KB Internal RAM, 37 I/Os, 48-pin LQFP, -40 to 85 degC, Tray|U3|STM-LQFP48_N|STM32F103C8T6|1
+39|FT24C128A|64Kbit, 400kHz, 1.7V, I2C Serial EEPROM, 8-Pin SOIC 150mil, Commercial Temperature|U4|SOIC-SN8_N|24AA64/SN|1
+40|4MHz|Surface Mount Quartz Crystal|Y1|HC49/4H_SMX|HC49/4H_SMX|1
+41|32.768MHz|Tuning Fork Crystal Unit|Y2|R26|R26-32.768|1
